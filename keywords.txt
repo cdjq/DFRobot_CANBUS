@@ -1,0 +1,54 @@
+#######################################
+# Syntax Coloring Map For DFRobot_CANBUS
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_CANBUS	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+begin	KEYWORD2
+sendMsgBuf	KEYWORD2
+isRemoteRequest	KEYWORD2
+initMask	KEYWORD2
+checkReceive	KEYWORD2
+initFilter	KEYWORD2
+sendMsgBuf	KEYWORD2
+readMsgBuf	KEYWORD2
+readMsgBufID	KEYWORD2
+checkError	KEYWORD2
+getCanId	KEYWORD2
+isExtendedFrame	KEYWORD2
+
+#define CAN_5KBPS	LITERAL1
+#define CAN_10KBPS	LITERAL1
+#define CAN_20KBPS	LITERAL1
+#define CAN_31K25BPS	LITERAL1
+#define CAN_33KBPS	LITERAL1
+#define CAN_40KBPS	LITERAL1
+#define CAN_50KBPS	LITERAL1
+#define CAN_80KBPS	LITERAL1
+#define CAN_83K3BPS	LITERAL1
+#define CAN_95KBPS	LITERAL1
+#define CAN_100KBPS	LITERAL1
+#define CAN_125KBPS	LITERAL1
+#define CAN_200KBPS	LITERAL1
+#define CAN_250KBPS	LITERAL1
+#define CAN_500KBPS	LITERAL1
+#define CAN_1000KBPS	LITERAL1
+
+#define CAN_OK	LITERAL1
+#define CAN_FAILINIT	LITERAL1
+#define CAN_FAILTX	LITERAL1
+#define CAN_MSGAVAIL	LITERAL1
+#define CAN_NOMSG	LITERAL1
+#define CAN_CTRLERROR	LITERAL1
+#define CAN_GETTXBFTIMEOUT	LITERAL1
+#define CAN_SENDMSGTIMEOUT	LITERAL1
+#define CAN_FAIL	LITERAL1
