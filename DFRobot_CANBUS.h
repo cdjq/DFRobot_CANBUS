@@ -349,7 +349,7 @@ class DFRobot_CANBUS
 {
 public:
   /*!
-   * @fn eFilter_t
+   * @enum eFilter_t
    * @brief 滤波器 
    */
   typedef enum {
@@ -365,7 +365,7 @@ public:
   }eFilter_t;
 
   /*!
-   * @fn eMasker_t
+   * @enum eMasker_t
    * @brief 屏蔽寄存器选择 
    */
   typedef enum{
